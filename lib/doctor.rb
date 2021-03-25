@@ -26,7 +26,7 @@ class Doctor
     paitients = appointments.collect do |appointment|
       appointment.paitent
     end
-    patiients
+    patients
   end
 
 end
