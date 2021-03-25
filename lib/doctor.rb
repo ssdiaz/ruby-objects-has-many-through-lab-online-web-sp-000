@@ -23,8 +23,8 @@ class Doctor
   end
 
   def patients
-    paitients = appointments.collect do |appointment|
-      appointment.paitent
+    patients = appointments.collect do |appointment|
+      appointment.patient
     end
     patients
   end
