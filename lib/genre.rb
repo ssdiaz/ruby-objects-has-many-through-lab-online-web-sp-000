@@ -19,7 +19,7 @@ class Genre
   end
 
   def artists
-    songs.name
+    self.songs.name
   end
 
 end
