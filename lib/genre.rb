@@ -15,10 +15,12 @@ class Genre
   def songs
     Song.select do |song|
       song.genre == self
-    end    
+    end
   end
 
-
+  def artists
+    songs.name
+      end
 
 end
 #learn spec/03_genre_spec.rb
