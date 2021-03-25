@@ -20,7 +20,7 @@ class Genre
 
   def artists
     songs.name
-      end
+  end
 
 end
 #learn spec/03_genre_spec.rb
