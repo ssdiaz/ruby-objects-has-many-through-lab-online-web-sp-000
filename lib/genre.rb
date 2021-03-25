@@ -19,8 +19,8 @@ class Genre
   end
 
   def artists
-    artists = songs.select do |song|
-      song.artist == self
+    artists = songs.each do |song|
+      song.artist #== self
     end
     artists
     #songs.artist
