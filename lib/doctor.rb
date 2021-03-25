@@ -29,7 +29,5 @@ class Doctor
     paitients
   end
 
-
-
 end
 #learn spec/04_doctor_spec.rb
