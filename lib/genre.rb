@@ -1,7 +1,10 @@
 class Genre
 
+  attr_accessor :name
+
+  
 
 
 
 end
-#learn spec/01_genre_spec.rb
+#learn spec/03_genre_spec.rb
