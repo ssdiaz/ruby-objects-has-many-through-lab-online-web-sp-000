@@ -19,11 +19,11 @@ class Genre
   end
 
   def artists
-    artists = songs.collect do |song|
-      song.artist# == self
-    end
-    artists
-    #songs.artist
+    # artists = songs.collect do |song|
+    #   song.artist# == self
+    # end
+    # artists
+    songs.artist
   end
 
 end
