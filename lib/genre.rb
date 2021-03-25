@@ -5,14 +5,18 @@ class Genre
 
   def initialize(name)
     @name = name
-    @@all << self    
+    @@all << self
   end
 
   def self.all
     @@all
   end
 
-
+  def songs
+    Song.select do |song|
+      song.genre == self
+    end    
+  end
 
 
 
