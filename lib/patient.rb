@@ -1,4 +1,4 @@
-class Paitent
+class Patient
 
   attr_accessor :name
   @@all = []
@@ -24,7 +24,7 @@ class Paitent
 
   def doctors
     doctors = appointments.collect do |paitent|
-      paitent.doctor
+      patient.doctor
     end
     doctors
   end
