@@ -14,9 +14,5 @@ class Appointment
     @@all
   end
 
-
 end
-
-
-
 #learn spec/05_appointment_spec.rb
