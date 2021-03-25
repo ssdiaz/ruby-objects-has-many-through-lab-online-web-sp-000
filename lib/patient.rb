@@ -1,4 +1,4 @@
-class Patient
+class Paitent
 
   attr_accessor :name
   @@all = []
