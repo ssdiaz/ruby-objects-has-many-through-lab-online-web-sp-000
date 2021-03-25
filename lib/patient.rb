@@ -22,5 +22,12 @@ class Patient
     end
   end
 
+  def doctors
+    doctors = appointments.collect do |paitent|
+      paitent.doctor  
+    end
+    doctors  
+  end
+
 end
 # learn spec/06_patient_spec.rb
