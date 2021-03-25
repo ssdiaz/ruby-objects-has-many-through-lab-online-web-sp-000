@@ -19,9 +19,10 @@ class Genre
   end
 
   def artists
-    songs.collect do |song|
+    artists = songs.collect do |song|
       song == self
     end
+    artists
   end
 
 end
