@@ -16,15 +16,17 @@ class Doctor
     Appointment.new(date, patient)
   end
 
+  def appointments
+    Appointment.all.select { |appointment| appointment.doctor == self }
+  end
+
   def patients
-    Appointment.all.select do |appointment|
-        appointment.doctor == self
-    end 
+    # Appointment.all.select do |appointment|
+    #     appointment.doctor == self
+    end
 
   end
 
 
 end
-
-
 #learn spec/04_doctor_spec.rb
