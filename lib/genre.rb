@@ -19,7 +19,7 @@ class Genre
   end
 
   def artists
-    artists = songs.collect do |song|
+    artists = songs.find do |song|
       song == self
     end
     artists
