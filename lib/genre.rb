@@ -19,7 +19,9 @@ class Genre
   end
 
   def artists
-    self.songs.name
+    songs.collect |song|
+      song == self
+    end 
   end
 
 end
